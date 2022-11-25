@@ -66,15 +66,51 @@
 #     print('это не день недели')
 
 
-print('Введите число ')
-number = int(input())
+# print('Введите число ')
+# number = int(input())
 
 
-def Gg(num):
-    i = 1
-    while i <= num:
-        print(f"{i} in cube = {i ** 3}")
-        i += 1
-Gg(number)
+# def Gg(num):
+#     i = 1
+#     while i <= num:
+#         print(f"{i} in cube = {i ** 3}")
+#         i += 1
+# Gg(number)
+
+
+
+# print('Введите число 1')
+# number1 = int(input())
+# print('Введите число 2')
+# number2 = int(input())
+
+# def Df(a, b):
+#     i = 0
+#     res = 1
+#     while i != b:
+#         res = res * a
+#         i += 1
+#     print(f'{a} в степени {b} = {res}')
+
+# Df(number1, number2)
+
+
+
+# print('Введите число 1')
+# number = int(input())
+
+# def Lk(num):
+#     res = 0
+#     while num != 0:
+#         res = num % 10 + res
+#         num = num // 10
+#     return res
+
+# lk = Lk(number)
+# print(lk)
+
+
+
+
 
 
