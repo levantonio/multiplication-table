@@ -66,14 +66,15 @@
 #     print('это не день недели')
 
 
-
-
 print('Введите число ')
 number = int(input())
-i = 1
-while i <= number:
-    print(f"{i} in cube = {i ** 1583}")
-    i += 1
-        
+
+
+def Gg(num):
+    i = 1
+    while i <= num:
+        print(f"{i} in cube = {i ** 3}")
+        i += 1
+Gg(number)
 
 
